@@ -5,12 +5,12 @@ const DiceRoll = () => {
     const [ diceValue2, setDiceValue2 ] = useState(1);
     const [ diceValue3, setDiceValue3 ] = useState(1);
     const diceImg = [
-        "/img/clipart2158865.png",
-        "/img/dice-2.png",
-        "/img/dice-3.png",
-        "/img/dice-4.png",
-        "/img/dice-5.png",
-        "/img/dice-6.png"
+        "./img/clipart2158865.png",
+        "./img/dice-2.png",
+        "./img/dice-3.png",
+        "./img/dice-4.png",
+        "./img/dice-5.png",
+        "./img/dice-6.png"
     ];
 
     const imgStyle = {
